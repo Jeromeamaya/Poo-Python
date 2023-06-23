@@ -23,27 +23,27 @@ class Persona():
     def getnombre(self):
         return self.nombre    
     def setNombre(self,nombre):
-        return self.nombre
+        self.nombre=nombre
     def getApellido(self):
         return self.apellido   
     def setApellido(self):
-        return self.apellido
+        self.apellido=apellido
     def getpeso(self):
         return self.peso  
     def setpeso(self):
-        return self.peso
+        self.peso=peso
     def getEstatura(self):
         return self.estatura 
     def setEstatatura(self):
-        return self.estatura
+        self.estatura=estatura
     def getEdad(self):
         return self.edad
     def setEdad(self):
-        return self.edad
+        self.edad=edad
     def getSexo(self):
         return self.sexo
     def setSexo(self):
-        return self.sexo
+        self.sexo=sexo
 
 
 
